@@ -484,3 +484,15 @@ body::before, body::after {
   animation-delay: 1.2s;
 }
 /* keyframes fadeIn end */
+
+div.clr { clear:both; }
+/*html, body { overflow:initial; }*/
+.main-nav { z-index:99; }
+/*.main-nav h1 { background-color:#fff; padding:15px; border:solid 1px #000; }*/
+@media all and (max-width:640px) {
+  .staggered_images img { width:100%; margin:1% !important; }
+    #right-nav { font-size:16px; }
+    #left-nav { font-size:16px; }
+}
+
+body > div { overflow:initial; }
