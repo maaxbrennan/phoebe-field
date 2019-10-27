@@ -438,7 +438,7 @@ body::before, body::after {
     z-index: 1;
     position: relative;
     margin: 10px;
-    background-color: #F0F0F0;
+    background-color: #fff;
     padding: 2px;
     margin-right:10%;
     margin-left:15%;
