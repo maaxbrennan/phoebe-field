@@ -549,9 +549,9 @@ margin-top:20px;
     list-style: none;
     padding: 10px 5px;
 }
-
 .arttext {
 visibility: hidden;
+display:none;
 }
 
 .arttext {
