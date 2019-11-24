@@ -551,6 +551,10 @@ margin-top:20px;
 }
 
 .arttext {
+visibility: hidden;
+}
+
+.arttext {
 font-size: 16px;
 font-weight: 800;
 z-index: 1;
