@@ -513,11 +513,12 @@ div.clr { clear:both; }
 .menu ul {
   display: inline-flex;
 }
+
 .menu ul li {
   list-style: none;
   padding: 0px 35px;
-  text-decoration: ;
 }
+
 .menu ul li a { 
 font-family: 'Helvetica', serif;
 text-decoration: none;
