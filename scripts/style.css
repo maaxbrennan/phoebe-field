@@ -48,7 +48,7 @@ h1 a {
 }
 
 img.m1 {
-    margin-top: 7em;
+    margin-top: 2em;
 }
 
 img.m42 {
@@ -143,7 +143,7 @@ img.hs {
 }
 
 .staggered_images { padding-left:0px; }
-.staggered_images img { width:45%; display:inline-block; }
+.staggered_images img { width:90%; display:inline-block; }
 ##.staggered_images img:nth-child(4n-4) { margin:0%; }
 ##.staggered_images img:nth-child(4n-2) { margin-bottom:5%; margin-top:-5%; }
 ##.staggered_images img:nth-child(4n-1) { margin-right:-5%; }
