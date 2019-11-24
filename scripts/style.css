@@ -535,6 +535,12 @@ font-weight: 100;
 
 body > div { overflow:initial; }
 
+@media all and (min-width:588px) {
+.menu {
+margin-top:20px;
+}
+}
+
 @media all and (max-width:587px) {
 .menu ul {
     display: block;
@@ -542,5 +548,19 @@ body > div { overflow:initial; }
 .menu ul li {
     list-style: none;
     padding: 10px 5px;
+}
+
+.arttext {
+font-size: 16px;
+font-weight: 800;
+z-index: 1;
+position: relative;
+margin: 4px;
+background-color: #fff;
+padding: 2px;
+text-align: center;
+font-family: 'Helvetica', serif;
+min-height: 40px;
+margin-top: 41px;
 }
 }
