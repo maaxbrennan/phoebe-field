@@ -163,6 +163,11 @@ div.clr { clear:both; }
   .staggered_images img { width:100%; margin:1% !important; }
     #right-nav { font-size:16px; }
     #left-nav { font-size:16px; }
+    h1.logo-left-pre {
+    color: black;
+    font-size: 25px;
+    z-index:25;
+}
 }
 
 html {
