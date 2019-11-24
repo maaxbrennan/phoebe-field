@@ -495,4 +495,11 @@ div.clr { clear:both; }
     #left-nav { font-size:16px; }
 }
 
+  img.m2 {
+    margin-top:10px;
+    top: 0;
+    left: 0;
+  }
+
+
 body > div { overflow:initial; }
