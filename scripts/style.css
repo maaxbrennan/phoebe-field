@@ -20,13 +20,18 @@ body > div {
 }
 
 h1.logo-left-pre {
-    color: black;
-    font-size: 37px;
-    overflow: hidden;
-    padding-left: 1em;
-    /*bottom: 0;*/
-    position: fixed;
-    z-index:25;
+color: black;
+font-size: 37px;
+overflow: hidden;
+top: 0;
+position: fixed;
+z-index: 25;
+width: 100%;
+text-align: center;
+background-color: white;
+height: 110px;
+padding: 40px 0px;
+margin-top: 0px;
 }
 
 h1 a {
@@ -162,13 +167,14 @@ body > div { overflow:initial; }
 div.clr { clear:both; }
 .main-nav { z-index:99; }
 @media all and (max-width:640px) {
-  .staggered_images img { width:100%; margin:1% !important; }
+  .staggered_images img { width:100%; margin:0% !important; }
     #right-nav { font-size:16px; }
     #left-nav { font-size:16px; }
     h1.logo-left-pre {
     color: black;
     font-size: 25px;
     z-index:25;
+    height: 70px;
 }
 }
 
@@ -509,7 +515,7 @@ div.clr { clear:both; }
     margin-top:10px;
     top: 0;
     left: 0;
-    margin-bottom: 6px;
+    margin-bottom: 0px;
   }
 
 .menu ul {
@@ -532,7 +538,7 @@ font-weight: 100;
 
 .pageanchor {
     position: absolute;
-	margin-top: -53px;
+	margin-top: -116px;
 }
 
 body > div { overflow:initial; }
@@ -565,4 +571,19 @@ font-family: 'Helvetica', serif;
 min-height: 40px;
 margin-top: 41px;
 }
+}
+
+@media all and (min-width:587px) {
+.showcase-four img {
+  width: 22%;
+  display: initial;
+}
+.showcase-four{
+margin-bottom: 122vh;
+}
+}
+
+.showcase-four{
+height: 100vh;
+margin-bottom: 0;
 }
