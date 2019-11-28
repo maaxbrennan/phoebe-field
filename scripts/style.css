@@ -459,6 +459,7 @@ text-align: center;
 font-family: 'Helvetica', serif;
 min-height: 70px;
 margin-top: 41px;
+font-family: 'Playfair Display', serif;
 }
 
 /* make keyframes that tell the start state and the end state of our object */
@@ -573,6 +574,7 @@ text-align: center;
 font-family: 'Helvetica', serif;
 min-height: 40px;
 margin-top: 41px;
+
 }
 }
 
@@ -590,4 +592,18 @@ height:auto;
 .showcase-four{
 height: 100vh;
 margin-bottom: 0;
+}
+.intro-text {
+    z-index: 1;
+    position: relative;
+    margin: 10px;
+        margin-top: 10px;
+    background-color: #fff;
+    padding: 10px 12%;
+    text-align: center;
+    font-family: 'Helvetica', serif;
+    min-height: 74px;
+    margin-top: 5px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
 }
