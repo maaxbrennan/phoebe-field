@@ -559,7 +559,6 @@ margin-top:20px;
     padding: 10px 5px;
 }
 .showcase-four{
-margin-bottom: 122vh;
 height:auto!important;
 }
 .arttext {
@@ -584,20 +583,17 @@ margin-top: 41px;
   display: initial;
 }
 .showcase-four {
-margin-bottom: 122vh;
 height:auto;
 }
 }
 
 .showcase-four{
-height: 100vh;
 margin-bottom: 0;
 }
 .intro-text {
     z-index: 1;
     position: relative;
-    margin: 10px;
-        margin-top: 10px;
+    margin: 30px 10px;
     background-color: #fff;
     padding: 10px 12%;
     text-align: center;
