@@ -307,7 +307,7 @@ img.m2 {
 }
 .menu ul {
 	display: inline-flex;
-	margin: 20px 0px 0px 0px;
+	margin: 25px 0px 5px 0px;
 }
 .menu ul li {
 	list-style: none;
@@ -434,17 +434,29 @@ body>div {
 
 /* After DirtyMarkup */ 
 
-.social-container img {
+.social-right img, .social-left img {
     max-width: 27px;
 }
 
-.social-container {
+.social-right {
     position: fixed;
     z-index: 30;
     font-size: 37px;
     top: 0;
     width: 100%;
     text-align: right;
+    height: 110px;
+    padding: 40px 50px;
+    margin-top: 0px;
+}
+
+.social-left {
+    position: fixed;
+    z-index: 50;
+    font-size: 37px;
+    top: 0;
+    width: 100%;
+    text-align: left;
     height: 110px;
     padding: 40px 50px;
     margin-top: 0px;
