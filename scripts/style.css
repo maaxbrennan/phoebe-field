@@ -351,6 +351,9 @@ body>div {
 	.showcase-four {
 		height: auto!important;
 	}
+	.shop-showcase {
+		height: auto!important;
+	}	
 	.arttext {
 		font-size: 16px;
 		font-weight: 800;
@@ -378,8 +381,18 @@ body>div {
 	.showcase-four {
 		height: auto;
 	}
+	.shop-showcase img {
+		width: 26%;
+		display: initial;
+	}
+	.shop-showcase {
+		height: auto;
+	}	
 }
 .showcase-four {
+	margin-bottom: 0;
+}
+.shop-showcase {
 	margin-bottom: 0;
 }
 .intro-text {
