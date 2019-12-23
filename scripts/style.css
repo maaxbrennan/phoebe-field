@@ -148,14 +148,6 @@ img.m4 {
     margin-left: 8em;
 }
 
-.social-right {
-    padding: 0px 15px;
-}
-
-.social-left {
-    padding: 0px 15px;
-}
-
 }
 
 .images {
@@ -536,10 +528,11 @@ body > div {
     z-index: 30;
     font-size: 37px;
     top: 0;
-    width: 100%;
+    width: 30%;
+    right: 0;
     text-align: right;
     height: 110px;
-    padding: 40px 50px;
+    padding: 0px 15px;
     margin-top: 0px;
 }
 
@@ -548,9 +541,10 @@ body > div {
     z-index: 50;
     font-size: 37px;
     top: 0;
-    width: 100%;
+    left: 0;
+    width: 30%;
     text-align: left;
     height: 110px;
-    padding: 40px 50px;
+    padding: 0px 15px;
     margin-top: 0px;
 }
